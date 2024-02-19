@@ -12,6 +12,9 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-webflow-badge {
+    display: none !important;
+}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -410,7 +413,7 @@ figcaption {
 }
 
 .text-accent {
-  background-image: linear-gradient(149deg, #f6d365, #ff7952);
+  background-image: linear-gradient(149deg, #5aa4ff, #ff8abf);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
