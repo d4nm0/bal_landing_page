@@ -15,6 +15,10 @@
 .w-webflow-badge {
     display: none !important;
 }
+
+img.image-app-hero{
+  max-height: 688px !important;
+}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -2183,6 +2187,7 @@ figcaption {
 .image-app-hero {
   border-radius: 48px;
   box-shadow: 0 50px 70px 0 rgba(17, 18, 19, 0.12);
+  max-height: 688px !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -2464,6 +2469,7 @@ figcaption {
   .image-app-hero {
     max-width: 40vw;
     border-radius: 43px;
+    max-height: 688px !important;
   }
 }
 
@@ -2759,6 +2765,7 @@ figcaption {
   .image-app-hero {
     max-width: 40vw;
     border-radius: 5vw;
+    max-height: 688px !important;
   }
 }
 
@@ -3016,6 +3023,7 @@ figcaption {
   .image-app-hero {
     max-width: 44vw;
     border-radius: 6vw;
+    max-height: 688px !important;
   }
 }
 
